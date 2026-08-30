@@ -1,0 +1,86 @@
+Operadores em Java
+
+1. Operadores relacionais
+São usados para comparar valores e retornar resultado verdadeiro ou falso.
+
+==  igual a
+!=  diferente de
+>   maior que
+<   menor que
+>=  maior ou igual a
+<=  menor ou igual a
+
+Exemplos:
+int a = 10;
+int b = 20;
+
+System.out.println(a == b);   // false
+System.out.println(a < b);    // true
+System.out.println(a >= 10);  // true
+
+2. Operadores aritméticos
+São utilizados para realizar operações matemáticas.
+
++   soma
+-   subtração
+*   multiplicação
+/   divisão
+%   módulo (resto da divisão)
+++  incremento
+--  decremento
+
+Exemplos:
+int x = 10;
+int y = 3;
+
+System.out.println(x + y);    // 13
+System.out.println(x - y);    // 7
+System.out.println(x * y);    // 30
+System.out.println(x / y);    // 3
+System.out.println(x % y);    // 1
+
+x++;
+System.out.println(x);        // 11
+
+3. Operadores de atribuição
+Servem para atribuir valores a variáveis, podendo combinar com operação.
+
+=   atribuição simples
++=  atribuição com soma
+-=  atribuição com subtração
+*=  atribuição com multiplicação
+/=  atribuição com divisão
+%=  atribuição com módulo
+
+Exemplos:
+int valor = 5;
+valor += 3;   // valor = valor + 3
+System.out.println(valor);   // 8
+
+valor *= 2;   // valor = valor * 2
+System.out.println(valor);   // 16
+
+4. Operadores lógicos
+São usados para combinar condições.
+
+&&  e
+||  ou
+!   não
+
+Exemplos:
+int idade = 18;
+int nota = 9;
+
+System.out.println(idade >= 18 && nota >= 7);   // true
+System.out.println(idade < 18 || nota >= 7);    // true
+System.out.println(!(idade < 18));              // true
+
+5. Ordem de avaliação em expressões complexas
+Em expressões mais elaboradas, Java avalia a expressão na seguinte ordem:
+1. parênteses ()
+2. operador !
+3. operadores relacionais (>, <, ==, etc.)
+4. operador &&
+5. operador ||
+
+Esse esquema ajuda a determinar qual parte da expressão será resolvida primeiro.
