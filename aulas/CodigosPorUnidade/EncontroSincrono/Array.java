@@ -18,6 +18,7 @@ public class Array {
     // Método principal. É onde a execução do programa começa.
     public static void main(String[] args) {
 
+        int test = 1;
         // Criação de um objeto Scanner para ler dados
         // digitados pelo usuário através do teclado.
         Scanner ler = new Scanner(System.in);
