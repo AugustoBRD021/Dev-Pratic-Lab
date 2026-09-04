@@ -4,8 +4,6 @@ import java.util.Scanner;
 public class Aula {
     public static void main(String[] args){
 
-
-
         /*
         Operadores de atribuição
         = atribuição numero = 3;
@@ -14,7 +12,7 @@ public class Aula {
         *= atribuição com multiplicação
         /= atribuição com divisão
         %= atribuição com módulo número %= 2; == 0 3/2 = 1 ()
-
+        */
         // declaração da variável opeAtribuicao do tipo integer/int com 0 como valor inicial atribuído
         int opeAtribuicao = 0;
         System.out.println(opeAtribuicao);
@@ -41,7 +39,7 @@ public class Aula {
         opeAtribuicao %= 2;
         System.out.println(opeAtribuicao);
 
-
+       /*
         Operadores relacionais
         == "igual a"
         != "diferente de"
