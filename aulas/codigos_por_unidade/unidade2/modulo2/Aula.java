@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Aula {
     public static void main(String[] args){
 
+
         /*
         Operadores de atribuição
         = atribuição numero = 3;
@@ -12,7 +13,7 @@ public class Aula {
         *= atribuição com multiplicação
         /= atribuição com divisão
         %= atribuição com módulo número %= 2; == 0 3/2 = 1 ()
-        */
+
         // declaração da variável opeAtribuicao do tipo integer/int com 0 como valor inicial atribuído
         int opeAtribuicao = 0;
         System.out.println(opeAtribuicao);
@@ -33,13 +34,13 @@ public class Aula {
         opeAtribuicao /= 2;
         System.out.println(opeAtribuicao);
 
-        // atribuição com módulo ou resto de divisão, por conta da operação anterior temos 2, então 2 / 2 = 1 (0)
+        // atribuição com módulo ou resto de divisão, por conta da operação anterior temos 2, então 2 % 2 = 1 (0)
         //  2 / 2    3 / 2    17 / 2     10 / 3         10 = 3 * 3 + 1
         // (0)  1   (1)  1   (1)   8     (1)  3,333...
         opeAtribuicao %= 2;
         System.out.println(opeAtribuicao);
 
-       /*
+
         Operadores relacionais
         == "igual a"
         != "diferente de"
@@ -105,18 +106,68 @@ public class Aula {
         opeAritmeticos--;
         System.out.println(opeAritmeticos);
 
+
+
         Operadores lógicos
         && "e"
         || "ou"
         ! "Não"
+        */
+
+
+
+
+
+
+
+        // integer/ int/ inteiros
+        // integer
+        int numero = 1;
+
+
 
         int opeLogicos = 0;
 
-        boolean opeLogi = opeLogicos == 0
+        // declarando uma variavel chamada igual, do tipo boolean, true
+        boolean igual = opeLogicos == 0;
 
-        if(opeLogicos == 1 && !opeLogi == false || opeLogicos == 75){
-            System.out.println("Ira imprimir 1");
+        //    verdadeiro ou true
+        if (igual){
+            System.out.println("Ola");
+        }else{
+            System.out.println("deu erro!");
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /*
+        //              false
+        //  false                true              true
+        if(opeLogicos == 1 && !opeLogi == false || opeLogicos == 0){
+
+            System.out.println("Ira imprimir 1");
+        }else{
+
+            System.out.println("Ira imprimir deu erro");
+        }
+
+
+
+
 
         condicionais
         if(){}

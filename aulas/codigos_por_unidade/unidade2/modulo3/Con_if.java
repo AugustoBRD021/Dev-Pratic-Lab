@@ -21,6 +21,7 @@ public class Con_if {
         // Estrutura condicional if.
         // A expressão "numero <= 15" significa: se o valor de numero for menor ou igual a 15,
         // então o bloco dentro do if será executado.
+
         if(numero <= 15) {
 
             // Mensagem exibida apenas quando a condição for verdadeira.

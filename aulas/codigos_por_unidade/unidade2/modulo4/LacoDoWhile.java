@@ -35,15 +35,16 @@ public class LacoDoWhile {
         do {
 
             // Solicita ao usuário que digite a quantidade de amostras desejadas.
-            System.out.print("Informe A Quantidade De Amostras (Maior Que Zero): ");
+            System.out.print("Informe A Quantidade De Amostras (Maior do que 5 e menor que 20): ");
 
             // Lê um número inteiro digitado pelo usuário
             // e o armazena na variável "amostras".
             amostras = ler.nextInt();
 
         // Condição do do-while: continua repetindo enquanto amostras for <= 0.
-        } while (amostras <= 0);
+        } while (amostras <= 5 || amostras >= 20);
 
+        System.out.println(amostras);
         // Fecha o Scanner após terminar a leitura dos dados.
         ler.close();
     }

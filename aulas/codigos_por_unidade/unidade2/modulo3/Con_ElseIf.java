@@ -21,21 +21,30 @@ public class Con_ElseIf {
         // Declaração e inicialização da variável "horario" do tipo String.
         String horario = "Tarde";
 
+
         // Primeira condição: verifica se o nome é "Luciano" e o horário é "Manhã".
         // O operador && significa "E lógico". As duas condições precisam ser verdadeiras.
+        //               false
+        //    true                  false
         if (name == "Luciano" && horario == "Manhã") {
 
             // Exibe uma mensagem de bom dia para Luciano.
             System.out.println("Bom dia" + name);
 
         // Segunda condição: verifica se o nome é "Luciano" e o horário é "Tarde".
-        } else if(name == "Luciano" && horario == "Tarde") {
+        }
+        //                       true
+        //           true                 true
+        else if(name == "Luciano" && horario == "Tarde") {
 
             // Exibe uma mensagem de boa tarde para Luciano.
-            System.out.println("Boa"+ horario + ", " + name);
+            System.out.println("Boa "+ horario + ", " + name);
 
         // Terceira condição: verifica se o nome é "Luciano" e o horário é "Noite".
-        } else if(name == "Luciano" && horario == "Noite") {
+        }
+        //                   false
+        //          true                    false
+        else if(name == "Luciano" && horario == "Noite") {
 
             // Exibe uma mensagem de boa noite para Luciano.
             System.out.println("Boa" + horario + ", " + name );

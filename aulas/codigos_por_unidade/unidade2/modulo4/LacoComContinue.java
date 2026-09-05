@@ -35,7 +35,7 @@ public class LacoComContinue {
 
             // Verifica se o número é PAR usando o operador módulo (%).
             // i % 2 == 0 significa: o resto da divisão de i por 2 é 0 (número par).
-            if (i % 2 == 0) {
+            if (i % 2 == 1){
 
                 // Continue é uma instrução que PULA para a próxima iteração do laço.
                 // Qualquer instrução após o continue não é executada nesta volta.
